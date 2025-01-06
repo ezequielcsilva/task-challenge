@@ -5,7 +5,8 @@ using TaskTracker.Domain.Tasks;
 
 namespace TaskTracker.Application.Tasks.CreateTask;
 
-internal sealed class CreateTaskCommandHandler(ITaskItemRepository taskItemRepository, IDbContext dbContext) : ICommandHandler<CreateTaskCommand, CreateTaskResult>
+internal sealed class CreateTaskCommandHandler(ITaskItemRepository taskItemRepository, IDbContext dbContext) 
+    : ICommandHandler<CreateTaskCommand, CreateTaskResult>
 {
     public async Task<Result<CreateTaskResult>> Handle(CreateTaskCommand request, CancellationToken cancellationToken)
     {

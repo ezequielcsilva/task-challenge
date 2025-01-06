@@ -12,7 +12,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\TaskTracker.Domain\TaskTracker.Domain.csproj" />
+		<ProjectReference Include="..\TaskTracker.Domain\TaskTracker.Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>TaskTracker.UnitTests</_Parameter1>
+		</AssemblyAttribute>
 	</ItemGroup>
 
 </Project>
