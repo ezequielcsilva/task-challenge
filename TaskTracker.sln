@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A8B25C6E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTracker.UnitTests", "tests\TaskTracker.UnitTests\TaskTracker.UnitTests.csproj", "{1D461938-C0C1-4C43-AD17-38D9941F5286}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskTracker.API", "src\TaskTracker.API\TaskTracker.API.csproj", "{033A686D-305A-43A0-BF74-74FE9DB16627}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{1D461938-C0C1-4C43-AD17-38D9941F5286}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D461938-C0C1-4C43-AD17-38D9941F5286}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D461938-C0C1-4C43-AD17-38D9941F5286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033A686D-305A-43A0-BF74-74FE9DB16627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033A686D-305A-43A0-BF74-74FE9DB16627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033A686D-305A-43A0-BF74-74FE9DB16627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033A686D-305A-43A0-BF74-74FE9DB16627}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{375A6B7B-A6F9-4B4D-BC37-7FE1D34E34D6} = {1DAC5D21-D862-4695-83AC-AA78B79F414A}
 		{6EA7C9E3-5BE3-4514-9AC8-0251CC3CB5AE} = {1DAC5D21-D862-4695-83AC-AA78B79F414A}
 		{1D461938-C0C1-4C43-AD17-38D9941F5286} = {A8B25C6E-B490-479A-9AF2-8E40B5E13172}
+		{033A686D-305A-43A0-BF74-74FE9DB16627} = {1DAC5D21-D862-4695-83AC-AA78B79F414A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5E608928-6181-489E-8C28-0F9E9CBB67C9}
