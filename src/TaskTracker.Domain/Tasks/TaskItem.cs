@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-using TaskTracker.Domain.Abstractions;
+﻿using TaskTracker.Domain.Abstractions;
 
 namespace TaskTracker.Domain.Tasks;
 
@@ -28,6 +22,4 @@ public class TaskItem : Entity
     {
         return new TaskItem(Guid.NewGuid(), name, description, isCompleted);
     }
-
-
 }
